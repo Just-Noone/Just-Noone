@@ -51,6 +51,7 @@ body, html {
   animation: slide 2s linear infinite both reverse;
   transition: all 0.5s;
   z-index: -20;
+  user-select: none; /* Standard syntax */
 }
 
 .head_scroll_text_1{
@@ -71,6 +72,7 @@ body, html {
   transition: all 0.5s;
   z-index: -20;
   translate: 70px 0;
+  user-select: none; /* Standard syntax */
 }
 
 .head_scroll_box_1{
