@@ -1,0 +1,41 @@
+:root{
+  --main-color: #8F00FF;
+  --second-color: #EB00FF;
+
+  --main-text-color: #000;
+  --second-text-color: #FFF;
+
+  --main-bg-color: #FFF;
+  --second-bg-color: #8F00FF;
+
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+    background: var(--main-bg-color);
+    scroll-behavior: smooth;
+}
+
+h2{
+  margin: 0;
+  padding: 0;
+  font-family: "Afacad Flux", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+  text-wrap: nowrap;
+  color: var(--first-text-color);
+  z-index: 10;
+  opacity: 100%;
+  transition: all 0.5s;
+}
