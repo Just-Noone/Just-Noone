@@ -1,7 +1,7 @@
   
   .about_container{
     width: 100%;
-    height: 120px;
+    height: fit-content;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -26,7 +26,7 @@
 
   .about_m{
     width: 100%;
-    height: 200px;
+    height: fit-content;
   }
 
   .text_p{
@@ -36,5 +36,5 @@
     font-style: normal;
     color: var(--first-text-color);
     text-align: center;
-    margin: 0 150px;
+    margin: 0 50px;
   }

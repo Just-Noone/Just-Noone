@@ -39,3 +39,38 @@ h2{
   opacity: 100%;
   transition: all 0.5s;
 }
+
+a{
+  margin: 2px 0;
+  color: white;
+  background-color: #EB00FF;
+  padding: 10px 20px;
+  min-width: 200px;
+  border-radius: 200px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+a:hover{
+  color: white;
+  background-color: #EB00FF;
+  padding: 10px 30px;
+  transition: all 0.5s;
+}
+
+footer{
+  height: 200px;
+  width: 100%;
+  background-color: var(--second-bg-color);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: all 0.5s;
+}
+
+p{
+  margin: 0;
+}

@@ -6,7 +6,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    display: none;
 }
 
 .about_title{
@@ -29,80 +28,149 @@
     width: 100%;
 }
 
-.oliveos_frame{
-    height: 300px;
-    width: 100%;
-    background: linear-gradient(45deg, #AAC139, #86914F);
-    overflow: hidden;
+.card1{
+    width: 33%;
+    min-height: 500px;
+    height: fit-content;
+    background-image: url(/assets/img/JNR\ banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px 25px;
+    border-radius: 20px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.5s ease;
 }
 
-.oliveos_frame:hover{
-    height: 300px;
-    width: 90%;
-    background: linear-gradient(45deg, #AAC139, #86914F);
-    overflow: hidden;
+.card2{
+    width: 33%;
+    min-height: 500px;
+    height: fit-content;
+    background-image: url(/assets/img/OliveOSBanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px 25px;
+    border-radius: 20px;
     display: flex;
-    flex-direction: column;
+    align-items: flex-end;
     justify-content: center;
-    align-items: center;
-    transition: all 0.5s ease;
 }
 
-.georail_frame{
-    height: 300px;
-    width: 100%;
-    background: linear-gradient(45deg, #FFE7A9, #FFB800);
-    overflow: hidden;
+.card3{
+    width: 33%;
+    min-height: 500px;
+    height: fit-content;
+    background-image: url(/assets/img/GeoBanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px 25px;
+    border-radius: 20px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.5s ease;
 }
 
-.georail_frame:hover{
-    height: 300px;
-    width: 90%;
-    background: linear-gradient(45deg, #FFE7A9, #FFB800);
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.5s ease;
-}
-
-.jnr_frame{
-    height: 300px;
-    width: 100%;
-    background: linear-gradient(45deg, #B60DFF, #FF1FFB);
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.5s ease;
-}
-
-.jnr_frame:hover{
-    height: 300px;
-    width: 90%;
-    background: linear-gradient(45deg, #B60DFF, #FF1FFB);
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.5s ease;
-}
 
 .project_pages{
-    background-color: #191919;
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    row-gap: 20px;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    row-gap: 20px;
+    color: white;
+    text-align: center;
+}
+
+.card-bg{
+    width: 100%;
+    height: fit-content;
+    min-height: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    transition: all 0.5s;
+    padding: 20px 20px;
+}
+
+.card-bg:hover{
+    width: 100%;
+    height: fit-content;
+    min-height: 400px;
+    transition: all 0.5s;
+}
+
+.smalltext{
+    font-family: "Afacad Flux", sans-serif;
+    font-size: .3rem;
+    font-weight: 100;
+    font-style: normal;
+    text-wrap: nowrap;
+    color: var(--second-text-color);
+    opacity: 100%;
+    transition: all 0.5s;
+}
+
+@media (max-width:960px) {
+
+    .cards{
+        flex-direction: column;
+    }
+
+    .card1{
+        width: 70%;
+        min-height: 500px;
+        height: fit-content;
+        background-image: url(/assets/img/JNR\ banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: 20px 25px;
+        border-radius: 20px;
+        display: flex;
+    }
+    
+    .card2{
+        width: 70%;
+        min-height: 500px;
+        height: fit-content;
+        background-image: url(/assets/img/OliveOSBanner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: 20px 25px;
+        border-radius: 20px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    
+    .card3{
+        width: 70%;
+        min-height: 500px;
+        height: fit-content;
+        background-image: url(/assets/img/GeoBanner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: 20px 25px;
+        border-radius: 20px;
+        display: flex;
+    }
+
 }
